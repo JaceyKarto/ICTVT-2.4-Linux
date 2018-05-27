@@ -1,9 +1,13 @@
 #!/bin/bash         
 
-echo "Test 123" 
-
+# init parameters
 PAR=$2
-DIR=$1
+MAP=$1
 
-find "$DIR"
-echo "Directory found: " $DIR
+#maakt nieuwe folder op basis van modified date
+for x in *; do
+  d=$(date -r "$x" +%Y-%m-%d)
+  mkdir -p "$d"
+  mv -- "$x" "$d/"
+done
+
