@@ -17,7 +17,7 @@ Geef de juiste permissions met het commando:
 # Parameters
 Het script kent twee parameters namelijk:
 1. De directory waar de foto's staan die gesorteerd moeten worden.
-2. Waarop de folders gesorteerd moeten worden, namelijk per week of per maand.
+2. En waarop de folders gesorteerd moeten worden, namelijk per week of per maand.
 
 Syntax: 
 `` ./test.sh map week/maand`` 
