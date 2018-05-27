@@ -69,10 +69,12 @@ fi
 #Als parameter 2 gelijk is aan week, sorteer de mappen dan op week.
 if [ $PAR == 'week' ];then
 
+#Maak een map genaamd Maand aan als die er nog niet is
 if [ ! -d "Maand" ]; then
   mkdir -p "Maand" 
 fi
 
+#Maak een hoofdmap genaamd Week aan als die er nog niet is
 if [ ! -d "Week" ]; then
   mkdir -p "Week" 
 fi
