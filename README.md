@@ -25,7 +25,9 @@ Voor versie 2:
 ``https://github.com/JaceyKarto/ICTVT-2.4-Linux/photo-organizerV2.sh ``
 
 Geef de juiste permissions met het commando:
-`` chmod +x test.sh `` 
+`` chmod +x photo-organizer.sh `` 
+Versie 2:
+`` chmod +x photo-organizerV2.sh `` 
 
 
 # Syntax: 
