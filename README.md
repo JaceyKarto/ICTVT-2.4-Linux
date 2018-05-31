@@ -19,20 +19,21 @@ Het script kent twee parameters namelijk:
 Klik op de volgende link op het script te downloaden:
 
 Voor versie 1:
-``https://github.com/JaceyKarto/ICTVT-2.4-Linux/photo-organizer.sh ``
+``https://github.com/JaceyKarto/ICTVT-2.4-Linux/Photo-Organizer.sh ``
 
 Voor versie 2:
-``https://github.com/JaceyKarto/ICTVT-2.4-Linux/photo-organizerV2.sh ``
+``https://github.com/JaceyKarto/ICTVT-2.4-Linux/Photo-OrganizerV2.sh ``
 
 Geef de juiste permissions met het commando:
-`` chmod +x photo-organizer.sh `` 
+`` chmod +x Photo-Organizer.sh `` 
+
 Versie 2:
-`` chmod +x photo-organizerV2.sh `` 
+`` chmod +x Photo-OrganizerV2.sh `` 
 
 
 # Syntax: 
 Voor versie 1:
-`` ./photo-organizer.sh map(waar foto's staan) week/maand (waar de folders op gesorteerd moeten worden)``
+`` ./Photo-Organizer.sh map(waar foto's staan) week/maand (waar de folders op gesorteerd moeten worden)``
 
 Voor versie 2:
-`` ./photo-organizerV2.sh map(waar foto's staan) week/maand (waar de folders op gesorteerd moeten worden)``
+`` ./Photo-OrganizerV2.sh map(waar foto's staan) week/maand (waar de folders op gesorteerd moeten worden)``
