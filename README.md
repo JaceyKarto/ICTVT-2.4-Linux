@@ -5,19 +5,30 @@ Linux weekopdracht 2 Foto's sorteren
 Dit script maakt het mogelijk om foto's te sorteren/verplaatsen in en naar (nieuwe) mappen.
 De mappen kunnen op weeknummer of maand gesorteerd worden.
 
-
-# Installatie
-Klik op de volgende link op het script te downloaden:
-
-``https://github.com/JaceyKarto/ICTVT-2.4-Linux/test.sh ``
-
-Geef de juiste permissions met het commando:
-`` chmod +x test.sh `` 
+# Verschil tussen versie 1 en versie 2:
+Het verschil tussen versie 1 en versie 2 is dat bij versie 2 wordt gekeken of er in de directory al een folder genaamd "Maand" of "Week" te vinden is. Als dit niet het geval is dan worden de mappen aangemaakt. Vervolgens wordt aan de hand van de gegeven parameter (Maand of Week) in de bijbehorende map, nieuwe mappen gemaakt waar de foto's op maandnummer of weeknummer worden gesorteerd.
 
 # Parameters
 Het script kent twee parameters namelijk:
 1. De directory waar de foto's staan die gesorteerd moeten worden.
 2. En waarop de folders gesorteerd moeten worden, namelijk per week of per maand.
 
-Syntax: 
-`` ./test.sh map week/maand`` 
+# Installatie
+Klik op de volgende link op het script te downloaden:
+
+Voor versie 1:
+``https://github.com/JaceyKarto/ICTVT-2.4-Linux/photo-organizer.sh ``
+
+Voor versie 2:
+``https://github.com/JaceyKarto/ICTVT-2.4-Linux/photo-organizerV2.sh ``
+
+Geef de juiste permissions met het commando:
+`` chmod +x test.sh `` 
+
+
+# Syntax: 
+Voor versie 1:
+`` ./photo-organizer.sh map(waar foto's staan) week/maand (waar de folders op gesorteerd moeten worden)``
+
+Voor versie 2:
+`` ./photo-organizerV2.sh map(waar foto's staan) week/maand (waar de folders op gesorteerd moeten worden)``
